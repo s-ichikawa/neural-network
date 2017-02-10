@@ -33,6 +33,6 @@ def identity_function(x):
 
 
 network = init_network()
-x = np.array([1.0, 0.5])
+x = np.array([1.0, 0.6])
 y = forward(network, x)
 print(y)
