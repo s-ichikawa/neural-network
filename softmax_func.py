@@ -9,9 +9,4 @@ def softmax(a):
     return y
 
 
-a = np.array([0.3, 2.9, 4.0])
-
-print(softmax(a))
-print(np.sum(softmax(a)))
-
 
